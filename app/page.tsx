@@ -14,9 +14,9 @@ import "aos/dist/aos.css";
 
 function Home() {
 
-  useEffect(()=>{
- AOS.init();
-},[]);
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
 
   return (
@@ -85,35 +85,50 @@ function Home() {
       </div>
 
 
-      <div className="flex justify-between lg:px-15 mt-5" data-aos="fade-up">
-        <div className="flex bg-gray-200 shadow-xl items-center rounded-xl lg:px-5">
+      <div className="flex justify-between lg:px-15 mt-5 gap-5" data-aos="fade-up">
+        <div className="flex bg-gray-200 shadow-xl gap-x-4 items-center rounded-xl lg:px-5 w-50%">
 
           <div>
             <p className="text-sm font-semibold text-grat-400">Our Mission</p>
             <h1 className="text-3xl font-bold">Work and Leisure</h1>
             <h1 className="text-3xl font-bold">Enviroments</h1>
-            <p className="text-gray-500 text-sm font-semibold">Lorem ipsum dolor sit amet consectetur </p>
-            <p className="text-gray-500 text-sm font-semibold">Lorem ipsum dolor sit amet consectetur </p>
+            <p className="text-gray-500 text-sm font-semibold">Lorem ipsum dolor sit amet </p>
+            <p className="text-gray-500 text-sm font-semibold">Lorem ipsum dolor sit amet consectetur</p>
             <p className="text-gray-500 text-sm font-semibold">Lorem ipsum dolor sit amet consectetur </p>
             <p className="text-gray-500 text-sm font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
 
           <div>
-            <img src="/images/Luxury_lifestyle__luxury_hotels__business_inspiration__luxury_living__luxury_brands-removebg-preview.png" loading="lazy" alt=""   height={100}  data-aos="fade-up" className="shadow-xl mb-4 rounded-xl " />
+            <img src="/images/Luxury_lifestyle__luxury_hotels__business_inspiration__luxury_living__luxury_brands-removebg-preview.png" loading="lazy" alt="" height={100} data-aos="fade-up" className="shadow-xl rounded-xl " />
           </div>
 
         </div>
 
 
-        <div>
+        <div className="w-50%">
 
-          <img src="/images/pic-removebg-preview.png" loading="lazy"  alt=""/>
+          <img src="/images/my.jpg" loading="lazy" alt="" height={100} className="shadow-xl rounded-xl" />
 
         </div>
 
       </div>
 
 
+
+
+<div className="flex gap-5">
+  <div className="">
+    <img src="/images/Dream house.jpg" alt="" />
+  </div>
+
+  <div className="">
+
+<div className=""></div>
+<div className=""></div>
+
+  </div>
+
+</div>
 
 
     </div>

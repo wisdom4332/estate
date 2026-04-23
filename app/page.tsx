@@ -116,19 +116,47 @@ function Home() {
 
 
 
-<div className="flex gap-5">
-  <div className="">
-    <img src="/images/Dream house.jpg" alt="" />
-  </div>
+      <div className="flex gap-5 lg:px-18 mt-10 " data-aos="fade-up">
+        <div className="">
+          <img src="/images/Dream house.jpg" alt="" className="rounded-xl shadow-lg" />
+        </div>
 
-  <div className="">
+        <div className="flex bg-gray-200 rounded-xl lg:px-5">
 
-<div className=""></div>
-<div className=""></div>
+          <div className="">
+            <h1 className="text-3xl font-bold ">Unlock a world of </h1>
+            <h1 className="text-3xl font-bold ">Real estate</h1>
 
-  </div>
+            <p className="text-gray-600 font-semibold mt-4">We are a modern real estate platform dedicated to helping you find safe, verified, and <br /> affordable properties. Whether you're looking for a family home, investment property, or rental apartment, we make the process simple and stress-free</p>
+          </div>
 
-</div>
+
+          <div className=" mt-2">
+            <img src="/images/pp.jpg" alt="" className="rounded-xl sadow-lg" />
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="" data-aos="fade-up">
+
+        <div>
+          <p className="text-sm font-semibold text-gray-600">featuerd projects</p>
+
+          <h1 className="text-3xl font-bold">Where Happiness lives</h1>
+
+          <div className="flex gap-5">
+            <button className="bg-green-300 text-black text-sm border-1 rounded-xl px-4 ">Apartments</button>
+            <button className="text-black text-sm border-1 rounded-xl px-4">Commercial</button>
+            <button className="text-black text-sm border-1 rounded-xl px-4">community</button>
+            <button className="text-black text-sm border-1 rounded-xl px-4">Rent flat</button>
+          </div>
+
+        </div>
+
+
+      </div>
 
 
     </div>
